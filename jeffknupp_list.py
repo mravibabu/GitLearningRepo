@@ -8,3 +8,6 @@ def grouper(iterable, n, fillvalue=None):
 
 print(grouper('ABCDEFG', 3, 'x'))
 
+print("this is git demo of jeffknup")
+print("removing from the staging")
+
