@@ -11,3 +11,6 @@ print(grouper('ABCDEFG', 3, 'x'))
 print("this is git demo of jeffknup")
 print("removing from the staging")
 
+print("moved to dev branch from master branch")
+print("staging and comit at a time")
+

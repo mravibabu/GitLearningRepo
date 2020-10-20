@@ -1,0 +1,4 @@
+
+hi this is added in dev branch of learn git from the master branch.
+
+staging and commit can be done at a time with git commit -am "message "
