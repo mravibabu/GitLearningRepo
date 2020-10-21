@@ -13,19 +13,11 @@ sorted(readings, key=itemgetter(1), reverse=True)
 Split A Python List Into Chunks
 Splitting a list into equally sized sub-lists (for processing data in parallel, perhaps) is a common task. It's so common, in fact, that the itertools module (a module practically begging to be used in these kinds of tasks, by the way) gives actual code for how to accomplish this in Python
 
-
-
 Python itertools module
 Python itertools module is very useful in creating efficient iterators.
 
 Python itertools module provide us various ways to manipulate the sequence while we are traversing it.
-
-
-
-
 9440503239 sudarshan
-
-
 import itertools.zip_longest
 
 def grouper(iterable, n, fillvalue=None):
@@ -36,10 +28,4 @@ def grouper(iterable, n, fillvalue=None):
 
 print(grouper('ABCDEFG', 3, 'x'))
 
-print("this is git demo of jeffknup")
-print("removing from the staging")
-
-print("moved to dev branch from master branch")
-print("staging and comit at a time")
-
-print("merged in the master")
+print("Removed all print messages")
